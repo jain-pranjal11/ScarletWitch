@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Gilroy;
+    overflow: hidden;
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background-color: #fff;
+    border-bottom: 1px solid #777;
+}
+
+#nleft{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+    height: 100%;
+}
+
+#nleftl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 100%;
+    align-items: center;
+    font-size: 28px;
+    color: #fff;
+    background-color: red;
+}
+
+#nleftr{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#nleftr span{
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+#ncenter img{
+    margin-top: 5px;
+    width: 190px;
+    margin-left: -90px;
+}
+
+#nright{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    height: 80%;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+/*
+#circle,#circle1{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red;
+    opacity: .5;
+}
+*/
+#nright img{
+    height: 60px;
+
+}
+#img1{
+    position: absolute;
+    height: 1150px;
+    bottom: -65%;
+    left: -10%;
+}
+
+#img2{
+    position: absolute;
+    height: 700px;
+    right: 14%;
+    bottom: -5%;
+    z-index: 1;
+}
+
+#text{
+    position: absolute;
+    top: 25%;
+    left: 31%;
+    font-size: 25px;
+}
+
+#text h3{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#box,#box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 40px;
+    margin-top: 30px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: red;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+#box2{
+    width: 110px;
+}
+
+#text2{
+    position: absolute;
+    top: 25%;
+    font-size: 17px;
+    right: 2%;
+    line-height: 35px;
+}
+
+#text2 h2{
+    text-decoration: underline;
+}
+
+
+#btm{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 10%;
+    bottom: 0;
+    font-weight: 100;
+    background-color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#btmr{
+    position: absolute;
+    width: 32%;
+    height: 35%;
+    background-color: red;
+    right: 0;
+    bottom: 0;
+}
+
+#icons{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 190px;
+    height: 25px;
+    right: 5%;
+    bottom: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#btm1,#btm2,#btm3,#btm4,#btm5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+    color: #000;
+}
+
+#btm2 {
+    background-color: red;
+    color: #fff;
+}
+
+#btm2:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+#btm1:hover,#btm3:hover,#btm4:hover,#btm5:hover{
+    cursor: pointer;
+    background-color: red;
+    color: #fff;
+}
+
+#box:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+#box2:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+#nleftl:hover{
+    cursor: pointer;
+    background-color: #000;
+}
+
+#nright h4:hover,#nright i:hover{
+    cursor: pointer;
+
+}
